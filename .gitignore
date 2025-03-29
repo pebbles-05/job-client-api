@@ -1,0 +1,42 @@
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Logs
+logs
+*.log
+logs/*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Compiled output
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Debug and profiling
+*.pid
+*.seed
+*.pid.lock
+
+# pm2 process file
+pm2.log
+pm2.pid
